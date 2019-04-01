@@ -1,0 +1,39 @@
+/* Desktops and laptops ----------- */
+@media only screen  and (max-width : 780px) {
+  section {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+  }
+  .col-left img,  .col-right .col-right__img img {
+    width: 100%;
+  }
+  .col-right__img {
+    height: 750px;
+  }
+  .col-right {
+    width: 500px;
+    margin: auto;
+  }
+  .link {
+    height: 75px;
+  }
+  .message-promo {
+    justify-content: center;
+    height: 245px;
+  }
+  h2, h3 {
+    margin: 0px;
+    padding: 0px;
+  }
+  h2 {
+    width: 245px !important;
+    height: 245px !important;
+  }
+  h3 {
+width: 245px  !important;
+  }
+  footer {
+    margin-top: 0px;
+  }
+}

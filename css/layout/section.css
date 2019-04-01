@@ -1,0 +1,28 @@
+section {
+  width: 750px;
+  margin: 0 auto;
+  display: flex;
+
+}
+.col-right {
+  margin-top: -74px;
+}
+.col-left {
+  position: relative;
+}
+.col-right, .col-left, footer {
+  padding: 0px;
+  margin-bottom: 0px;
+}
+.message-promo {
+  display: flex;
+  align-items: center;
+  padding: 0px;
+  height: 190px;
+}
+.col-right__img {
+  height: 567px;
+}
+.link {
+  margin-top: 45px;
+}
