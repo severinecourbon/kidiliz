@@ -1,5 +1,5 @@
 /* Desktops and laptops ----------- */
-@media only screen  and (max-width : 780px) {
+@media only screen  and (max-width : 700px) {
   section {
     width: 100%;
     margin: 0 auto;
@@ -9,10 +9,10 @@
     width: 100%;
   }
   .col-right__img {
-    height: 750px;
+    height: 562px;
   }
   .col-right {
-    width: 500px;
+    width: 100%;
     margin: auto;
   }
   .link {
@@ -20,20 +20,27 @@
   }
   .message-promo {
     justify-content: center;
-    height: 245px;
+    height: auto;
   }
-  h2, h3 {
-    margin: 0px;
-    padding: 0px;
+  h1.xs {
+    margin-left: -90px ;
+    width: auto ;
   }
-  h2 {
-    width: 245px !important;
-    height: 245px !important;
+  h2.xs, h3.xs {
+    margin: 0px ;
+    padding: 0px ;
   }
-  h3 {
-width: 245px  !important;
+  h2.xs {
+    width: 50% ;
+    height: 190px;
+  }
+  h3.xs {
+    width: 50%  ;
   }
   footer {
-    margin-top: 0px;
+    margin-top: -5px;
+  }
+  .pattern {
+    width: 100%;
   }
 }
