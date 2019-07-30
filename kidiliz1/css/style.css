@@ -1,0 +1,71 @@
+@import url(./layout/header.css);
+@import url(./layout/section.css);
+@import url(./layout/footer.css);
+@import url(./layout/media-queries.css);
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  color: #707070;
+  width: 100%;
+  text-align: center;
+
+}
+h1, h2 {
+  font-family: 'Shadows Into Light', cursive;
+  color: #fff;
+}
+h1, h2, h3 {
+  font-weight: 100;
+}
+h1 {
+  font-size: 43px;
+  background-color: #F5AF26;
+  padding: 15px 25px;
+  width: 190px;
+  position: absolute;
+  top: -110px;
+  left: 50%;
+  margin-left: -120px;
+}
+h2 {
+  font-size: 94px;
+  background-color: #F5AF26;
+  height: 190px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 190px;
+
+}
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  width: 145px;
+  padding: 42px 24px;
+}
+a {
+  text-decoration: none;
+  background-color: #E13505;
+  color: #fff;
+  font-weight: 700;
+  padding: 15px 35px;
+  line-height: 15px;
+}
+
+.pattern {
+  height: 125px;
+  width: 100%;
+  background-image: url("./img/pattern.png");
+
+
+}
+.rotate {
+  transform: rotate(180deg);
+
+}
+
+
+

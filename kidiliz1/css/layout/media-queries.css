@@ -1,0 +1,46 @@
+/* Desktops and laptops ----------- */
+@media only screen  and (max-width : 700px) {
+  section {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+  }
+  .col-left img {
+    width: 100%;
+
+  }
+  .col-right {
+    width: 100%;
+    margin-top: -5px;
+  }
+  .link {
+    height: 100px;
+  }
+  h1.xs {
+    height: 92px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin-left: -90px;
+  }
+  h2.xs {
+    width: 50% ;
+    height: 190px;
+  }
+  h3.xs {
+  padding: 0px;
+  }
+  .message-promo {
+    height: 190px;
+  }
+  .message-promo__h3 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  footer {
+
+  }
+}

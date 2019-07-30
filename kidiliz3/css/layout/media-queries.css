@@ -8,6 +8,9 @@
   .col-left img,  .col-right .col-right__img img {
     width: 100%;
   }
+  .col-left > h1 > img {
+    width: auto;
+  }
   .col-right__img {
     height: 562px;
   }
@@ -23,8 +26,8 @@
     height: auto;
   }
   h1.xs {
+    height: 92px;
     margin-left: -90px ;
-    width: auto ;
   }
   h2.xs, h3.xs {
     margin: 0px ;

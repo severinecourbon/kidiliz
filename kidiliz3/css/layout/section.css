@@ -1,0 +1,41 @@
+section {
+  width: 750px;
+  margin: 0 auto;
+  display: flex;
+
+}
+.col-right {
+  margin-top: -74px;
+}
+.col-left {
+  position: relative;
+}
+.col-left__h1 {
+  background-color: #002248;
+
+  width: 190px;
+  position: absolute;
+  top: -66px;
+  left: 50%;
+  margin-left: -95px;
+  height: 92px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.col-right, .col-left, footer {
+  padding: 0px;
+  margin-bottom: 0px;
+}
+.message-promo {
+  display: flex;
+  align-items: center;
+  padding: 0px;
+  height: 190px;
+}
+.col-right__img {
+  height: 567px;
+}
+.link {
+  margin-top: 45px;
+}

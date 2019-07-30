@@ -1,0 +1,61 @@
+@import url(./layout/header.css);
+@import url(./layout/section.css);
+@import url(./layout/footer.css);
+@import url(./layout/media-queries.css);
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  color: #707070;
+  width: 100%;
+  text-align: center;
+}
+h1, h2 {
+  font-family: 'Shadows Into Light', cursive;
+  color: #fff;
+}
+h1, h2, h3, p {
+  font-weight: 100;
+}
+h1 {
+  font-size: 43px;
+
+}
+h2 {
+  font-size: 94px;
+  background-color: #002248;
+  height: 190px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 190px;
+
+}
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  width: 145px;
+  padding: 42px 21px;
+}
+a {
+  text-decoration: none;
+  background-color: #E13505;
+  color: #fff;
+  font-weight: 700;
+  padding: 15px 35px;
+  line-height: 15px;
+}
+
+.pattern {
+  height: 125px;
+  width: 100%;
+  background-color: #002248;
+
+
+}
+
+
+
+
